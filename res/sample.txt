@@ -1,0 +1,1 @@
+This tutorial describes how to use Qt Creator to create a small Qt application, Text Finder. It is a simplified version of the Qt UI Tools Text Finder example. The application user interface is constructed from Qt widgets by using Qt Designer. The application logic is written in C++ by using the code editor.

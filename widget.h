@@ -15,11 +15,12 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
-    void setName(const QString &name);
-    QString name() const;
+private slots:
+    void on_findButton_clicked();
 
 private:
     Ui::Widget *ui;
+    void loadTextFile();
 };
 
 #endif // WIDGET_H
